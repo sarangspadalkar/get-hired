@@ -1,0 +1,11 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="112" fill="#4338CA"/>
+  <!-- Briefcase body -->
+  <rect x="112" y="188" width="288" height="196" rx="28" fill="#ffffff"/>
+  <!-- Briefcase handle -->
+  <path d="M208 188v-24a28 28 0 0 1 28-28h40a28 28 0 0 1 28 28v24" stroke="#ffffff" stroke-width="26" stroke-linecap="round"/>
+  <!-- Divider band -->
+  <rect x="112" y="256" width="288" height="40" fill="#C7D2FE"/>
+  <!-- Checkmark -->
+  <path d="M212 292l30 30 58-64" stroke="#4338CA" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
