@@ -4,7 +4,7 @@ import { type Jobs } from '../data/jobs';
 import Spinner from './Spinner';
 
 const fetchJobs = async (): Promise<Jobs> => {
-  const res = await fetch('http://localhost:8000/jobs');
+  const res = await fetch('/api/jobs');
   if (!res.ok) {
     throw new Error('Failed to fetch jobs');
   }
